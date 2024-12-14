@@ -2,7 +2,7 @@
 
 Your AI-powered companion for mastering Dota 2 drafts. Get real-time analysis and insights to make better strategic decisions during the crucial drafting phase.
 
-![Dota Coach Screenshot](./public/screenshot.png)
+![Dota Coach Screenshot](screenshot.png)
 
 ## ✨ Features
 
