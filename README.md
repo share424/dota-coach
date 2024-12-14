@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎮 Dota Coach
 
-## Getting Started
+Your AI-powered companion for mastering Dota 2 drafts. Get real-time analysis and insights to make better strategic decisions during the crucial drafting phase.
 
-First, run the development server:
+## ✨ Features
+
+### 🎯 Counter Pick Analysis
+Get intelligent suggestions for counter picks against enemy heroes, complete with detailed explanations of why they work and how to use them effectively.
+
+### 🛣️ Lane Strategy
+Optimize your lane setups with smart recommendations based on both team compositions. Understand lane matchups and early game priorities.
+
+### 🎒 Item & Strategy Guide
+Receive personalized recommendations for item builds, power spikes, and gameplay strategies based on both team compositions. Get insights on core items, situational pickups, and timing windows.
+
+## 🚀 Getting Started
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone the repository
+git clone https://github.com/yourusername/dota-coach.git
+
+# Install dependencies
+npm install
+
+# Add your API keys to .env
+cp .env.example .env
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Add your API keys to the `.env` file:
+```env
+GROQ_API_KEY=your-groq-api-key-here
+OPENAI_API_KEY=your-openai-api-key-here
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Then start the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open [http://localhost:3000](http://localhost:3000) to start using Dota Coach.
 
-## Learn More
+## 🛠️ Built With
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js** - React framework for production
+- **Tailwind CSS** - For styling
+- **LangChain** - For AI interactions
+- **Groq** - High-performance LLM provider
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Contributions are welcome! Feel free to:
+- Report bugs
+- Suggest new features
+- Submit pull requests
 
-## Deploy on Vercel
+## 📝 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚠️ Disclaimer
+
+Dota Coach is not affiliated with Valve Corporation. Dota 2 is a registered trademark of Valve Corporation.
